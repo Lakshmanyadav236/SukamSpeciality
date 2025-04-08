@@ -43,7 +43,7 @@
   .nav-links a,
   .dropbtn {
     text-decoration: none;
-    color: rgb(82, 147, 173);
+    color: #54007b;
     padding: 10px 15px;
     font-size: 16px;
     border-radius: 5px;
@@ -56,7 +56,8 @@
   
   .nav-links a:hover,
   .dropbtn:hover {
-    background: linear-gradient(135deg, #ff5e9c, #5eb8ff); /* Pink to blue gradient */
+    /* background: linear-gradient(135deg, #830044, #ff5e5e); Pink to blue gradient */
+    background-color: #54007b;
     color: white;
   }
   
@@ -85,7 +86,8 @@
   }
   
   .dropdown-content a:hover {
-    background: linear-gradient(135deg, #ff5e9c, #5eb8ff); /* Pink to blue gradient */
+    /* background: linear-gradient(135deg, #ff5e9c, #5eb8ff); Pink to blue gradient */
+    background-color: #54007b;
     color: white;
   }
   
@@ -103,9 +105,9 @@
   
   /* Common Button */
   .btns {
-    border: 1px solid rgb(82, 147, 173); /* KEEP this line */
-    color: rgb(82, 147, 173);            /* Make text color same as border */
-    background: white;
+    border: 2px solid #54007b;; /* KEEP this line */
+    color: #54007b;            /* Make text color same as border */
+    background: rgba(242, 242, 242, 0.06);
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 14px;
@@ -115,7 +117,8 @@
   }
   
   .btns:hover {
-    background: linear-gradient(135deg, #ff5e9c, #5eb8ff); /* Pink to blue gradient */ /* Very soft hover */
+    /* background: linear-gradient(135deg, #ff5e9c, #5eb8ff); /* Pink to blue gradient */ /* Very soft hover */
+    background-color: #54007b;
     color: white;
   }
   #emergency {
@@ -131,7 +134,8 @@
   }
   
   #emergency:hover {
-    background: linear-gradient(135deg, #ff5e9c, #5eb8ff); /* Pink to blue gradient *//* light transparent red on hover */
+    background-color: #54007b;
+    /* background: linear-gradient(135deg, #ff5e9c, #5eb8ff); /* Pink to blue gradient */
     color: white;
   }
     

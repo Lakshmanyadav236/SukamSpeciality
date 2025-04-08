@@ -3,42 +3,32 @@ import "./FAQ.css"; // Import the CSS file
 
 const faqData = [
   {
-    question: "How much does IVF treatment cost in Bangalore?",
+    question: "Where does Dr. Manoj Karthik S practice?",
     answer:
-      "The cost of IVF treatment in Bangalore may vary depending on individual circumstances and treatment requirements. At Garbhagudi IVF Centre, we offer various IVF packages.",
+      "Dr. Manoj Karthik S practices at Sukam Speciality Clinic - Uttarahalli, Raksha Hospital - Uttarahalli.",
   },
   {
-    question: "Which IVF clinic has the highest success rate in Bangalore?",
-    answer: "Success rates vary by clinic and patient conditions. It’s best to check with the clinics directly for their latest success rates.",
+    question: "What Dr. Manoj Karthik S's education qualification?",
+    answer: "Dr. Manoj Karthik S has the following qualifications - MBBS, MS - General Surgery, FMAS",
   },
   {
-    question: "Does GarbhaGudi Hospital provide fertility treatment?",
-    answer: "Yes, GarbhaGudi Hospital provides a range of fertility treatments including IVF, IUI, and more.",
+    question: "Why do patients visit Dr. Manoj Karthik S?",
+    answer: "Patients frequently visit Dr. Manoj Karthik S for Piles Surgery, Liver Surgery, Anal Fissure Surgery",
   },
   {
-    question: "Why choose GarbhaGudi Hospital to get IVF treatment?",
-    answer: "GarbhaGudi Hospital is known for its high success rates, experienced doctors, and advanced fertility treatments.",
+    question: "Where does Dr. Manoj Karthik S practice?",
+    answer:
+      "Dr. Manoj Karthik S practices at Sukam Speciality Clinic - Uttarahalli, Raksha Hospital - Uttarahalli.",
   },
   {
-    question: "Does GarbhaGudi Hospital provide fertility treatment?",
-    answer: "Yes, GarbhaGudi Hospital provides a range of fertility treatments including IVF, IUI, and more.",
+    question: "What Dr. Manoj Karthik S's education qualification?",
+    answer: "Dr. Manoj Karthik S has the following qualifications - MBBS, MS - General Surgery, FMAS",
   },
   {
-    question: "Why choose GarbhaGudi Hospital to get IVF treatment?",
-    answer: "GarbhaGudi Hospital is known for its high success rates, experienced doctors, and advanced fertility treatments.",
+    question: "Why do patients visit Dr. Manoj Karthik S?",
+    answer: "Patients frequently visit Dr. Manoj Karthik S for Piles Surgery, Liver Surgery, Anal Fissure Surgery",
   },
-  {
-    question: "Who is the best infertility doctor in Bangalore?",
-    answer: "There are several renowned infertility doctors in Bangalore. It’s best to consult based on experience, patient reviews, and treatment approaches.",
-  },
-  {
-    question: "Is IVF 100% accurate?",
-    answer: "No, IVF success depends on various factors including age, health conditions, and medical history.",
-  },
-  {
-    question: "Does insurance cover IVF cost in India?",
-    answer: "Some insurance policies cover fertility treatments, but it's recommended to check with your insurance provider.",
-  },
+  
 ];
 
 const FAQ = () => {

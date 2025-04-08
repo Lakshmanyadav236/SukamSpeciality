@@ -7,6 +7,7 @@ import {
   FaWhatsapp,
   FaEnvelope
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -16,60 +17,57 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Home</h4>
           <ul>
-            <li>Promotions</li>
-            <li>Experience</li>
-            <li>Treatments</li>
-            <li>Testimonials</li>
-            <li>Versatile Approach</li>
-            <li>Gallery</li>
-            <li>Recent Blogs</li>
-            <li>Reviews</li>
+            <li><Link to="/promotions">Promotions</Link></li>
+            <li><Link to="/experience">Experience</Link></li>
+            <li><Link to="/treatments">Treatments</Link></li>
+            <li><Link to="/testimonials">Testimonials</Link></li>
+            <li><Link to="/approach">Versatile Approach</Link></li>
+            <li><Link to="/gallery">Gallery</Link></li>
+            <li><Link to="/blogs">Recent Blogs</Link></li>
+            <li><Link to="/reviews">Reviews</Link></li>
           </ul>
         </div>
 
         <div className="footer-section">
           <h4>About</h4>
           <ul>
-            <li>Dr. Manoj Karthik</li>
-            <li>Dr. Anitha A Manoj</li>
+            <li><Link to="doctor-profile/dr-manoj-karthik">Dr. Manoj Karthik</Link></li>
+            <li><Link to="doctor-profile/dr-anitha-a-manoj">Dr. Anitha A Manoj</Link></li>
           </ul>
         </div>
 
         <div className="footer-section">
           <h4>Treatments</h4>
           <ul>
-            <li>Pregnancy</li>
-            <li>PCOD</li>
-            <li>Uterine / Ovarian Surgeries</li>
-            <li>Fertility Issues</li>
-            <li>Thyroid Surgeries</li>
-            <li>Chronic Liver Disease</li>
-            <li>Endoscopy</li>
-            <li>Pancreatic Problems</li>
+            <li><Link to="PregnancyTreatment">Pregnancy</Link></li>
+            <li><Link to="/treatments/pcod">PCOD</Link></li>
+            <li><Link to="/treatments/uterine-ovarian-surgeries">Uterine / Ovarian Surgeries</Link></li>
+            <li><Link to="/treatments/fertility">Fertility Issues</Link></li>
+            <li><Link to="/treatments/thyroid-surgeries">Thyroid Surgeries</Link></li>
+            <li><Link to="/treatments/liver-disease">Chronic Liver Disease</Link></li>
+            <li><Link to="/treatments/endoscopy">Endoscopy</Link></li>
+            <li><Link to="/treatments/pancreatic-problems">Pancreatic Problems</Link></li>
           </ul>
         </div>
 
         <div className="footer-section">
           <h4>Resources</h4>
           <ul>
-            <li>Blogs</li>
-            <li>FAQ</li>
-            <li>Events</li>
+            <li><Link to="/blogs">Blogs</Link></li>
+            <li><Link to="/events">Events</Link></li>
           </ul>
         </div>
 
         <div className="footer-section">
           <h4>Location</h4>
           <ul>
-            <li>Uttarahalli</li>
+            <li><Link to="locations">Uttarahalli</Link></li>
           </ul>
         </div>
       </div>
 
-      {/* Divider Line Before Social Media Icons */}
       <hr className="footer-divider" />
 
-      {/* Social Media Icons */}
       <div className="footer-social">
         <a
           href="https://www.facebook.com/sukamspeciality/"
@@ -113,7 +111,6 @@ const Footer = () => {
         </a>
       </div>
 
-      {/* Copyright */}
       <div className="footer-copyright">
         <p>© 2025 Sukam Speciality and Fertility Clinic, Inc. All rights reserved.</p>
       </div>

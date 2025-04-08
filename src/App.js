@@ -43,10 +43,10 @@ function App() {
             element={
               <>
                 <CarouselComponent />
-                <ExperienceSection />
                 <HomeWelcomeBanner />
-                <FertilityExperts />
                 <TabbedServicesSection/>
+                <ExperienceSection />
+                <FertilityExperts />
                 <Testimonials />
                 <RecentBlogs />
                 <Gallery />

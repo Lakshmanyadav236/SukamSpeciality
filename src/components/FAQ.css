@@ -42,12 +42,12 @@
   
   /* Darker Hover Effect */
   .faq-question:hover {
-    background: rgba(233, 30, 99, 0.3); /* Darker pink */
+    background: #54007b2f;; /* Darker pink */
   }
   
   /* When FAQ is opened */
   .faq-item.open .faq-question {
-    background: #e91e63;
+    background: #54007b;
     color: white;
   }
   
@@ -55,8 +55,8 @@
   .faq-answer {
     padding: 10px 15px;
     font-size: 14px;
-    color: #333;
-    background: rgba(233, 30, 99, 0.15);
+    color: #000000;
+    background: #54007b24;
     display: none;
     border-radius: 5px;
   }

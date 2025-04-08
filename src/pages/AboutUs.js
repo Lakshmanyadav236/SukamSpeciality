@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './AboutUs.css';
-import founder1 from '../assets/manoj.avif';
-import founder2 from '../assets/Anitha.webp';
+import founder1 from '../assets/doctor-manoj.jpg';
+import founder2 from '../assets/anitha.jpg';
 import about1 from '../assets/about1.jpg';
 import about2 from '../assets/about2.webp';
 import about3 from '../assets/about3.webp';
@@ -38,9 +38,11 @@ const AboutUs = () => {
       <section className="hero-section" data-aos="fade-up">
         <div className="hero-text">
           <h1>Exceptional Care for <span>Everyone</span></h1>
-          <p>
-            Our team of specialists is dedicated to providing comprehensive and
-            compassionate healthcare services.
+          <p className='hero-quote'>
+          Founded with a vision to bring together clinical excellence and personalized care, our clinic is led by a dedicated team of experienced specialists who bring deep knowledge, skill, and understanding to every patient interaction. Over the years, we’ve had the privilege of walking alongside countless individuals and families on their journey to healing, motherhood, and better health.
+          
+          <em>"At Sukam, we don’t just treat conditions — we care for people."</em>
+
           </p>
           <button
             className="appointment-btn"

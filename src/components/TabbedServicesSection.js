@@ -15,11 +15,11 @@ const TabbedServicesSection = () => {
   const services = [
     {
       id: 1,
-      title: "Fertility Treatments",
-      description: "Comprehensive fertility treatments with expert care tailored to your needs.",
-      image: img1,
-      link: "/services/fertility",
-      doctorId: "dr-anitha-a-manoj", // Match DoctorProfile key
+      title: "Pregnancy Care",
+      description: "Comprehensive maternity support and prenatal care throughout your journey.",
+      image: img4,
+      link: "/services/pregnancy",
+      doctorId: "dr-anitha-a-manoj", // Same doctor
     },
     {
       id: 2,
@@ -39,6 +39,14 @@ const TabbedServicesSection = () => {
     },
     {
       id: 4,
+      title: "Fertility Treatments",
+      description: "Comprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert careComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needs tailored to your needs.",
+      image: img1,
+      link: "/services/fertility",
+      doctorId: "dr-anitha-a-manoj", // Match DoctorProfile key // Same doctor
+    },
+    {
+      id: 5,
       title: "Pregnancy Care",
       description: "Comprehensive maternity support and prenatal care throughout your journey.",
       image: img4,

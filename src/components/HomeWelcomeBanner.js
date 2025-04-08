@@ -23,8 +23,9 @@ const HomeWelcomeBanner = () => {
           Exceptional Care for <span>Everyone</span>
         </h1>
         <p>
-          Our team of specialists is dedicated to providing comprehensive and
-          compassionate healthcare services.
+        Founded with a vision to bring together clinical excellence and personalized care, our clinic is led by a dedicated team of experienced specialists who bring deep knowledge, skill, and understanding to every patient interaction. Over the years, we’ve had the privilege of walking alongside countless individuals and families on their journey to healing, motherhood, and better health.
+          
+          <em>"At Sukam, we don’t just treat conditions — we care for people."</em>
         </p>
         <button
           className="appointment-btn"

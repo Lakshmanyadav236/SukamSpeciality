@@ -14,11 +14,11 @@ const EmergencyModal = ({ onClose }) => {
         <hr />
         <div className="modal-content">
           <a href="tel:18001025555" className="phone-link">
-            <span className="phone-number">1800 102 5555</span>
+            <span className="phone-number">+91 910 810 8980</span>
             <FaPhoneAlt className="phone-icon" />
           </a>
           <a href="tel:18002026666" className="phone-link">
-            <span className="phone-number">1800 202 6666</span>
+            <span className="phone-number">+91 9449 6288 23</span>
             <FaPhoneAlt className="phone-icon" />
           </a>
         </div>

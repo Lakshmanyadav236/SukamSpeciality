@@ -39,25 +39,30 @@
 .footer-section ul li {
   margin: 5px 0;
   font-size: 16px;
-  cursor: pointer;
   transition: 0.3s;
 }
 
-.footer-section ul li:hover {
-  color: black; /* Hover effect */
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+  color: black;
   font-weight: bold;
 }
 
-/* Thin Black Line Before Icons */
+/* Divider */
 .footer-divider {
   border: 0;
   height: 2px;
-  background:white;
+  background: white;
   margin: 25px auto;
   width: 85%;
 }
 
-/* Social Icons */
+/* Social Media Icons */
 .footer-social {
   margin-top: 25px;
   display: flex;
@@ -68,10 +73,10 @@
 /* Icon Styling */
 .social-icon {
   color: #fff;
-  font-size: 26px; /* Larger for better visibility */
+  font-size: 26px;
   padding: 12px;
-  background: #222; /* Dark background for premium feel */
-  border-radius: 50%; /* Circular icons */
+  background: #222;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,15 +86,14 @@
   transition: 0.4s ease-in-out;
 }
 
-/* Hover Effect for Premium Look */
 .social-icon:hover {
-  background: linear-gradient(135deg, #ff5e9c, #5eb8ff); /* Vibrant pink to blue */
+  background: linear-gradient(135deg, #ff5e9c, #5eb8ff);
   color: #fff;
   transform: scale(1.2);
   box-shadow: 0px 6px 12px rgba(255, 64, 129, 0.5);
 }
 
-/* Copyright Section */
+/* Copyright */
 .footer-copyright {
   margin-top: 20px;
   font-size: 14px;
