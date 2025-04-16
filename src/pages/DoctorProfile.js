@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "./DoctorProfile.css";
-import Testimonials from "../components/Testimonials"; 
+import Testimonials from "../components/Testimonials";
+
 import manoj from "../assets/profile2.png";
 import anitha from "../assets/profile1.png";
 
@@ -25,9 +26,8 @@ const doctors = {
       "Surgical emergencies"
     ],
     conditions: [
-      "Gallstones", "Appendicitis", "Hernias",
-      "Hemorrhoids", "Fissures", "Fistulas",
-      "Thyroid nodules", "Breast lumps"
+      "Gallstones, appendicitis, hernias, hemorrhoids, fissures, fistulas, thyroid nodules, breast lumps and so many more — often linked to modern lifestyle factors such as poor diet, inactivity, and stress,  Dr. Manoj is highly regarded for his clinical judgment, clear communication, and commitment to quality care"
+
     ]
   },
   "dr-anitha-a-manoj": {
@@ -49,9 +49,8 @@ const doctors = {
       "Laparoscopic gynecologic surgeries"
     ],
     conditions: [
-      "Infertility", "PCOS", "Fibroids",
-      "Endometriosis", "Irregular menstruation",
-      "Pregnancy complications", "Menopausal concerns"
+      "Infertility, PCOS, fibroids, endometriosis, irregular menstruation, pregnancy complications, and menopausal concerns—often influenced by today’s lifestyle stressors and health habits,Dr. Anitha’s holistic and individualized care has empowered countless women to overcome challenges and embrace healthier, fuller lives"
+
     ]
   }
 };
@@ -96,23 +95,17 @@ const DoctorProfile = () => {
         <div className="expertise-section">
           <h4>Areas of Expertise</h4>
           <ul className="expertise-list">
-                <li><span>🩺</span> Laparoscopic Surgery</li>
-                <li><span>🔬</span> Minimally Invasive Procedures</li>
-                <li><span>👨‍⚕️</span> 15+ Years of Surgical Experience</li>
-                <li><span>🏥</span> 1000+ Successful Surgeries</li>
-            </ul>
-          {/* <ul className="expertise-list">
             {doctor.expertise.map((item, index) => (
-              <li key={index}><i className="fas fa-check-circle"></i>{item}</li>
+              <li key={index}><span>🩺</span> {item}</li>
             ))}
-          </ul> */}
+          </ul>
         </div>
 
         <div className="expertise-section">
           <h4>📋 Common Conditions Managed</h4>
           <ul className="expertise-list">
             {doctor.conditions.map((condition, index) => (
-              <li key={index}><i className="fas fa-angle-right"></i>{condition}</li>
+              <li key={index}><i className="fas fa-angle-right"></i> {condition}</li>
             ))}
           </ul>
         </div>
