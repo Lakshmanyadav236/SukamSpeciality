@@ -9,6 +9,9 @@ import about1 from '../assets/about1.jpg';
 import about2 from '../assets/about2.webp';
 import about3 from '../assets/about3.webp';
 import aboutLogo from '../assets/aboutLogo.png';
+import { Link } from 'react-router-dom';
+import ServicesPage from "./ServicesPage"; // ✅ Correct
+
 
 const AboutUs = () => {
   const [modal, setModal] = useState('');
@@ -58,38 +61,11 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Services Section */}
-      <section className="services" data-aos="fade-up">
-        <div className="service-box green" data-aos="zoom-in-up">
-          <div className="image-holder">
-            <img src={about1} alt="Clinic" className="service-img" />
-          </div>
-          <h4><b>Comprehensive Services</b></h4>
-          <p>Unextend care, hospital & primary and care.</p>
-        </div>
-
-        <div className="service-box orange" data-aos="zoom-in-up" data-aos-delay="100">
-          <div className="image-holder">
-            <img src={about2} alt="Clinic" className="service-img" />
-          </div>
-          <h4><b>Experienced Specialists</b></h4>
-          <p>Dedicated to providing comprehensive care.</p>
-        </div>
-
-        <div className="service-box blue" data-aos="zoom-in-up" data-aos-delay="200">
-          <div className="image-holder">
-            <img src={about3} alt="Clinic" className="service-img" />
-          </div>
-          <h4><b>Patient-Centered Approach</b></h4>
-          <p>Ensures our patients are at the center of care.</p>
-        </div>
-      </section>
-
       {/* Founders Section */}
       <section className="founders-section" data-aos="fade-up">
         <h2 className="founders-title">Founders & Directors</h2>
         <div className="founders-intro" data-aos="fade-right">
-          <h5 className="founders-vision">The Heart. The Hands. The Vision.</h5>
+                  <h5 className="founders-vision">The Heart. The Hands. The Vision.</h5>
         </div>
 
         {/* Founder 1: Image Left */}
@@ -101,8 +77,8 @@ const AboutUs = () => {
               MS (General Surgery) | FMAS | PGDHE | Senior General and Laparoscopic Surgeon | 22+ Years of Experience
             </p>
             <p>
-              A veteran surgeon with a calm mind and steady hands, Dr. Manoj Karthik S has spent over two decades in the operating room, managing everything from complex thyroid cases to laparoscopic hernia repairs.
-              His reputation is built not just on skill, but on sound judgment — knowing when to operate, and when not to.
+            We believe health is a right, not a privilege. Our mission is to provide accessible, compassionate, and quality care for every individual—regardless of age, background, or condition. With a focus on prevention, healing, and well-being, we are committed to building a healthier community, one person at a time.
+ 
             </p>
             <em>"Patients don't come to us for stitches and scars. They come to us for solutions..."</em>
           </div>
@@ -117,14 +93,44 @@ const AboutUs = () => {
               MS (OBG) | FMAS | FRM | Fertility & Women’s Health Expert | 16+ Years of Experience
             </p>
             <p>
-              Driven by compassion and clinical precision, Dr. Anitha has guided hundreds of women through some of their most important life chapters — from first pregnancies to menopause, from PCOD struggles to IVF journeys.
-              She’s deeply aware that women’s health is often misunderstood, overlooked, or rushed.
+            Women’s health is the foundation of a healthy society. We are dedicated to supporting women at every stage of life—with care that is compassionate, informed, and empowering. From adolescence to motherhood and beyond, our focus is on listening, understanding, and providing the best in personalized, holistic healthcare for every woman.
             </p>
             <em>“Whether it’s bringing a new life into this world or helping a woman understand her own body — I treat every case as personal. Because it is.”</em>
           </div>
         </div>
       </section>
+{/* Services Section */}
+<section className="services" data-aos="fade-up"> 
+      <Link to="/services" style={{ textDecoration: "none", color: "inherit" }}>
+  <div className="service-box green" data-aos="zoom-in-up">
+    <div className="image-holder">
+      <img src={about1} alt="Clinic" className="service-img" />
+    </div>
+    <h4><b>Comprehensive Services</b></h4>
+    <p>Unextend care, hospital & primary and care.</p>
+  </div>
+</Link> 
 
+        <Link to="/appointment" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <div className="service-box orange" data-aos="zoom-in-up" data-aos-delay="100">
+    <div className="image-holder">
+      <img src={about2} alt="Clinic" className="service-img" />
+    </div>
+    <h4><b>Experienced Specialists</b></h4>
+    <p>Dedicated to providing comprehensive care.</p>
+  </div>
+</Link>
+
+<Link to="/services" style={{ textDecoration: "none", color: "inherit" }}>
+  <div className="service-box green" data-aos="zoom-in-up">
+    <div className="image-holder">
+      <img src={about1} alt="Clinic" className="service-img" />
+    </div>
+    <h4><b>Patient Centric Approach</b></h4>
+    <p>Unextend care, hospital & primary and care.</p>
+  </div>
+</Link> 
+      </section>
       {/* Core Values & Vision */}
       <section className="core-values-vision-container">
         {/* Core Values */}

@@ -15,14 +15,6 @@ const TabbedServicesSection = () => {
   const services = [
     {
       id: 1,
-      title: "Pregnancy Care",
-      description: "Comprehensive maternity support and prenatal care throughout your journey.",
-      image: img4,
-      link: "/services/pregnancy",
-      doctorId: "dr-anitha-a-manoj", // Same doctor
-    },
-    {
-      id: 2,
       title: "General Surgery",
       description: "Safe and advanced surgical procedures with experienced surgeons.",
       image: img2,
@@ -30,29 +22,38 @@ const TabbedServicesSection = () => {
       doctorId: "dr-manoj-karthik", // Match DoctorProfile key
     },
     {
-      id: 3,
-      title: "Gynecology",
-      description: "Personalized care for women's health, from adolescence to menopause.",
-      image: img3,
-      link: "/services/gynecology",
-      doctorId: "dr-anitha-a-manoj", // Same doctor
-    },
-    {
-      id: 4,
-      title: "Fertility Treatments",
-      description: "Comprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert careComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needs tailored to your needs.",
-      image: img1,
-      link: "/services/fertility",
-      doctorId: "dr-anitha-a-manoj", // Match DoctorProfile key // Same doctor
-    },
-    {
-      id: 5,
-      title: "Pregnancy Care",
+      id: 2,
+      title: "Obstetrics and Gynaecology",
       description: "Comprehensive maternity support and prenatal care throughout your journey.",
       image: img4,
       link: "/services/pregnancy",
       doctorId: "dr-anitha-a-manoj", // Same doctor
     },
+   
+    {
+      id: 3,
+      title: "Reproductive Medicine",
+      description: "Personalized care for women's health, from adolescence to menopause.",
+      image: img3,
+      link: "/services/gynecology",
+      doctorId: "dr-anitha-a-manoj", // Same doctor
+    },
+    // {
+    //   id: 4,
+    //   title: "Fertility Treatments",
+    //   description: "Comprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert careComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needsComprehensive fertility treatments with expert care tailored to your needs tailored to your needs.",
+    //   image: img1,
+    //   link: "/services/fertility",
+    //   doctorId: "dr-anitha-a-manoj", // Match DoctorProfile key // Same doctor
+    // },
+    // {
+    //   id: 5,
+    //   title: "Pregnancy Care",
+    //   description: "Comprehensive maternity support and prenatal care throughout your journey.",
+    //   image: img4,
+    //   link: "/services/pregnancy",
+    //   doctorId: "dr-anitha-a-manoj", // Same doctor
+    // },
   ];
 
   const handlePrev = () => {

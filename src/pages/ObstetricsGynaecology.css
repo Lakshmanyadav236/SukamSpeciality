@@ -1,0 +1,299 @@
+.general-surgery-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Top Banner Section */
+.surgery-banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden; /* Try removing this */
+}
+
+.surgery-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.surgery-hero-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: #fff;
+  max-width: 600px;
+}
+
+.surgery-hero-text h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.surgery-hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-btn,
+.consult-btn,
+.final-cta-btn {
+  padding: 10px 20px;
+  background-color: #007a7a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+/* Treatment Section */
+.treatment-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+.icon-large {
+  font-size: 3.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.treatment-section h2 {
+  margin-bottom: 30px;
+}
+
+.treatment-grid-anitha {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.treatment-card-anitha {
+  background: #ffffff62;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  padding: 15px;
+  text-align: center;
+}
+
+.treatment-card-anitha:hover {
+  transform: translateY(-10px);
+}
+
+.treatment-card-anitha img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.treatment-card-anitha h3 {
+  margin: 15px 0 5px;
+  font-size: 1.1rem;
+  color: #cf05aa;
+  font-weight: 700;
+}
+
+.treatment-card-anitha p {
+  padding: 0 15px 15px;
+  font-size: 0.95rem;
+  color: #555;
+  font-weight: 600;
+}
+
+
+/* Expertise Section */
+.expertise-section {
+  padding: 40px 20px;
+  background-color: #f0fbfb;
+}
+
+.expertise-treatment-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 20px;
+}
+
+.expertise-column {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f0fbfb;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
+}
+
+.expertise-column h2 {
+  margin-bottom: 20px;
+}
+
+.expertise-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+}
+
+.expertise-list li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.expertise-list span {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Overview Section */
+.overview-section {
+  padding: 50px 20px;
+}
+
+.key-aspects {
+  margin-top: 30px;
+}
+
+.key-aspects ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.key-aspects li {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+/* Final CTA Section */
+.final-cta-section {
+  padding: 40px 20px;
+  background-color: #e1f7f7;
+  text-align: center;
+}
+
+/* Doctor Treatments Section */
+.doctor-treatments-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.doctor-profile-box-anitha {
+  flex: 1;
+  min-width: 320px;
+  max-width: 420px;
+  background: #b8009615;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+.doctor-img-anitha {
+  width: 200px;  /* Increased image size */
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #cf05aa;
+  object-fit: cover; /* Ensures image fills the area properly */
+  margin-right: 30px;  /* More spacing between image and text */
+  background: none; /* Removes any unwanted background */
+}
+.doctor-card:hover {
+transform: translateY(-5px);
+box-shadow: rgba(238, 148, 4, 0.2);
+background: rgba(100, 99, 99, 0.121);
+}
+.doctor-profile-box-anitha h2 {
+  font-size: 1.5rem;
+  color: #b80096;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.designation-anitha {
+  font-weight: 600;
+  color: #b80096;
+  margin-bottom: 20px;
+}
+.qualification-anitha {
+  font-size: 1rem;
+  color:#b80096;
+  margin-bottom: 20px;
+}
+.consult-button-anitha {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #b80096;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.consult-button-anitha:hover {
+  background-color: #005fa3;
+}
+.treatment-categories-box-anitha {
+  flex: 2;
+  min-width: 320px;
+  background: #b8009615;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.treatment-categories-box-anitha h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #b80096;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .surgery-banner {
+    height: auto;
+    min-height: 250px;
+  }
+
+  .surgery-banner-img {
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .surgery-hero-text {
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    max-width: 90%;
+  }
+
+  .surgery-hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .surgery-hero-text p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .surgery-banner-img {
+    display: none;
+  }
+}

@@ -9,14 +9,14 @@ import AllBlogs from "./components/AllBlogs";
 import GoogleReviews from "./components/GoogleReviews";
 import Footer from "./components/Footer";
 import AboutUs from "./pages/AboutUs";
-import PregnancyTreatment from "./pages/PregnancyTreatment";
+// import PregnancyTreatment from "./pages/PregnancyTreatment";
 import PCODTreatment from "./pages/PCODTreatment";
-import ThyroidSurgeries from "./pages/ThyroidSurgeries";
-import Chronic from "./pages/chronic";
-import Endoscopy from "./pages/endoscopy";
-import Pancreas from "./pages/pancreas";
-import Fertility from "./pages/fertility";
-import Uterine from "./pages/uterine";
+// import ThyroidSurgeries from "./pages/ThyroidSurgeries";
+// import Chronic from "./pages/chronic";
+// import Endoscopy from "./pages/endoscopy";
+// import Pancreas from "./pages/pancreas";
+// import Fertility from "./pages/fertility";
+// import Uterine from "./pages/uterine";
 import Location1 from "./components/Location1";
 import AccessReportsLogin from "./pages/AccessReportsLogin";
 import Treatment1 from "./pages/treatment1";
@@ -29,7 +29,10 @@ import FertilityExperts from "./components/FertilityExperts";
 import HomeWelcomeBanner from "./components/HomeWelcomeBanner";
 import TabbedServicesSection from "./components/TabbedServicesSection";
 import ScrollToTop from "./ScrollToTop";
-
+import ServicesPage from "./pages/ServicesPage";
+import GeneralSurgery from "./pages/GeneralSurgery";
+import ObstetricsGynaecology from "./pages/ObstetricsGynaecology"
+import ReproductiveMedicine from "./pages/ReproductiveMedicine"
 function App() {
   return (
     <Router>
@@ -55,7 +58,7 @@ function App() {
               </>
             }
           />
-
+          <Route path="/services" element={<ServicesPage />} />
           {/* About Page */}
           <Route path="/about" element={<AboutUs />} />
           <Route path="/access-lab-reports" element={<AccessReportsLogin />} />
@@ -65,20 +68,22 @@ function App() {
           <Route path="/doctor-profile/:doctorId" element={<DoctorProfile />} />
 
           {/* Treatment Pages */}
-          <Route path="/PregnancyTreatment" element={<PregnancyTreatment />} />
-          <Route path="/PCODTreatment" element={<PCODTreatment />} />
-          <Route path="/uterine" element={<Uterine />} />
+          <Route path="/GeneralSurgery" element={<GeneralSurgery/>}/>
+          <Route path="/ObstetricsGynaecology" element={<ObstetricsGynaecology />} />
+          <Route path="/ReproductiveMedicine" element={<ReproductiveMedicine />} />
+
+          {/* <Route path="/uterine" element={<Uterine />} />
           <Route path="/fertility" element={<Fertility />} />
           <Route path="/ThyroidSurgeries" element={<ThyroidSurgeries />} />
           <Route path="/chronic" element={<Chronic />} />
           <Route path="/endoscopy" element={<Endoscopy />} />
-          <Route path="/pancreas" element={<Pancreas />} />
+          <Route path="/pancreas" element={<Pancreas />} /> */}
 
           {/* Blog Pages */}
           <Route path="/blogs" element={<AllBlogs />} />
 
           {/* Other Resource Pages */}
-          <Route path="/faq" element={<div>FAQ Page</div>} />
+          <Route path="/faq" element={<FAQ />} />
           <Route path="/gallery" element={<Gallery />} />
 
           {/* Location Pages */}

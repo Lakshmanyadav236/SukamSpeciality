@@ -48,7 +48,7 @@
   }
   
   .service-tab.active {
-    background-color: #007bff;
+    background-color: #00964e;
     color: #fff;
     transform: scale(1.05);
   }
